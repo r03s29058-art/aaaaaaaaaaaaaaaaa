@@ -1,0 +1,41 @@
+<video src="movie.mp4" controls loop autoplay muted></video>
+
+<img src="animation.gif" width="300px">
+
+https://github.com/user-attachments/assets/dae13dc1-adab-4668-86e5-f72754395231
+
+commit 444444444444444444444444444444444444444a ★動画を埋め込んだ最後のコミット★
+Author: wanko <wanko@mail.jp>
+Date:   Wed Dec 4 04:04:04 2024 +0900
+
+    update readmi.md
+
+commit 333333333333333333333333333333333333333a
+Author: wanko <wanko@mail.jp>
+Date:   Tue Dec 3 03:03:03 2024 +0900
+
+    ３コミット
+
+commit 222222222222222222222222222222222222222a
+Author: wanko <wanko@mail.jp>
+Date:   Mon Dec 2 02:02:02 2024 +0900
+
+    ２コミット
+
+commit 111111111111111111111111111111111111111a
+Author: wanko <wanko@mail.jp>
+Date:   Sun Dec 1 01:01:01 2024 +0900
+
+    １コミット
+
+git rebase -i HEAD~2
+
+pick 3333333 ３コミット
+pick 4444444 update readmi.md         ★ この行を削除
+
+git add readme.md
+
+git commit --amend --no-edit
+
+git push origin +master
+
